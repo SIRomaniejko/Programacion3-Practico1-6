@@ -23,7 +23,7 @@ public class Main {
 		for(Object valor: lista){
 			boolean esDistinto = true;
 			for(Object valorDistinto: diferencia){
-				if(valor == valorDistinto){
+				if(valor.equals(valorDistinto)){
 					esDistinto = false;
 					break;
 				}
